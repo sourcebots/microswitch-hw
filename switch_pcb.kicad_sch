@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "e6686c7b-f499-4426-8460-934710b4709c")
 	(paper "A4")
+	(title_block
+		(title "2020 Extrusion Microswitch Mount")
+		(comment 1 "All components are through-hole")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
@@ -555,6 +559,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push_SPDT"
 			(pin_names
 				(offset 0) hide)
@@ -995,6 +1101,14 @@
 		(color 0 0 0 0)
 		(uuid "ec382c62-7897-4aeb-97bc-93bb9b964059")
 	)
+	(no_connect
+		(at 187.96 85.09)
+		(uuid "093f27ce-327b-4b9f-b187-49ead9050450")
+	)
+	(no_connect
+		(at 187.96 93.98)
+		(uuid "d26f26dc-511a-4b14-a202-43f6efc4e55c")
+	)
 	(wire
 		(pts
 			(xy 116.84 73.66) (xy 116.84 81.28)
@@ -1361,7 +1475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 99.822 95.25 90)
 			(effects
 				(font
@@ -1536,6 +1650,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 187.96 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59e93b2b-df4d-45cf-9b1c-ed403f9bf7de")
+		(property "Reference" "H1"
+			(at 190.5 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 190.5 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a146a63f-583c-4c50-9394-dc4399a74072")
+		)
+		(instances
+			(project "switch_pcb"
+				(path "/e6686c7b-f499-4426-8460-934710b4709c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 187.96 91.44 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7292d41f-96e3-46bc-922b-c6c3c167e1e4")
+		(property "Reference" "H2"
+			(at 190.5 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 190.5 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9e3014d-bc82-49da-b931-b3a5855ec12a")
+		)
+		(instances
+			(project "switch_pcb"
+				(path "/e6686c7b-f499-4426-8460-934710b4709c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 104.14 0)
 		(unit 1)
@@ -1686,7 +1934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "4x2.54mm"
 			(at 160.02 83.8199 0)
 			(effects
 				(font
@@ -1695,7 +1943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -1704,7 +1952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX128-2-54-04P-GN01-Cu-Y-A_C5188444.pdf"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -1714,6 +1962,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C5188444"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -1751,7 +2008,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a47cfadd-8b09-46db-a900-7ce79d08ee01")
 		(property "Reference" "SW1"
 			(at 119.38 67.3099 90)
@@ -1762,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push_SPDT"
+		(property "Value" "RA Microswitch"
 			(at 119.38 69.8499 90)
 			(effects
 				(font
@@ -1780,7 +2036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2004101009_Yuandi-TC-5610D2-T_C504864.pdf"
 			(at 114.3 68.58 0)
 			(effects
 				(font
@@ -1796,6 +2052,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC" "C504864"
+			(at 114.3 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TC-5610D2-T "
+			(at 126.746 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -1844,7 +2117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm"
 			(at 108.9152 99.06 0)
 			(effects
 				(font
@@ -1914,7 +2187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 118.872 95.25 90)
 			(effects
 				(font
@@ -1984,7 +2257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm"
 			(at 127.9652 99.06 0)
 			(effects
 				(font
