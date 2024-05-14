@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "microswitch")(type "KiCad")(uri "${KIPRJMOD}/microswitch.kicad_sym")(options "")(descr ""))
+)
