@@ -284,4 +284,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "14f1911d-b5d9-4934-b240-64b224b179b8")
 	)
+	(model "${KIPRJMOD}/D2F-01L-A-3DModel.STEP"
+		(offset
+			(xyz 3.25 3.75 3)
+		)
+		(scale
+			(xyz 1 0.9 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
