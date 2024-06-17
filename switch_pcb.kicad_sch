@@ -1491,7 +1491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -1558,7 +1558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO7380_Pad"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -1774,7 +1774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switch_pcb:TC-5610D2-T"
 			(at 99.06 67.31 0)
 			(effects
 				(font
