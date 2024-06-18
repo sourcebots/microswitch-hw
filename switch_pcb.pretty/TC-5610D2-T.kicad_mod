@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "${REFERENCE}"
-		(at 0 -3.5 0)
+		(at 0 -6 0)
 		(layer "F.Fab")
 		(uuid "83776c97-2940-43d0-b22b-de9d7cba97c1")
 		(effects
@@ -256,6 +256,20 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "05765fae-419f-425d-9725-dfc817f9e6d9")
+	)
+	(pad "" np_thru_hole circle
+		(at -3.4 -3.25)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "bb4eb593-6649-491e-a004-1c12f6ae0b2e")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.4 -3.25)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "13db2ec7-569d-4457-a0d4-0c375c51c5d5")
 	)
 	(pad "1" thru_hole oval
 		(at -5.08 0)
