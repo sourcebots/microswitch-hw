@@ -63,7 +63,7 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_poly
 		(pts
 			(xy 0.272128 -0.457741) (xy 0.34944 -0.430494) (xy 0.449597 -0.36022) (xy 0.522844 -0.264638) (xy 0.569084 -0.151652)
