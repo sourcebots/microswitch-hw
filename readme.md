@@ -12,6 +12,10 @@ As such, this PCB is designed to be a simple breakout board for a microswitch. I
 
 ![Schematic](https://sourcebots.github.io/microswitch-hw/Schematic/switch_pcb-schematic.svg)
 
+## Components
+- [Right-angle microswitch](https://www.lcsc.com/product-detail/C504864.html): C504864
+- [Screw terminal block](https://www.lcsc.com/product-detail/C5188435.html): C5188435
+
 ## Resources
 
 - [Schematic PDF](https://sourcebots.github.io/microswitch-hw/Schematic/switch_pcb-schematic.pdf)
